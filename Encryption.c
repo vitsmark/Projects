@@ -16,7 +16,7 @@ int main (void)
     printf("Enter your massage: ");
     
     
-    while (scanf("%25s", m) != 0)
+    while (scanf("%26s", m) != 0)
     {
 
 
