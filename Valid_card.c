@@ -2,7 +2,7 @@
 #include <string.h> 
 #include <ctype.h>
 #include <stdlib.h>
-// Program check if the card number you've entered is valid if so it prints its bank.
+// Program check if the card number you've entered is valid if so it prints its payment system.
 
 
 int main(void)
