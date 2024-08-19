@@ -12,11 +12,9 @@ int main (void)
 
 
     
-        
-    printf("Enter your massage: ");
-    
-    
-    while (scanf("%26s", m) != 0)
+   printf("Enter your massage(to quit pass #): ");     
+   scanf("%25s", m);
+    while (m[0] != '#')
     {
 
 
@@ -51,8 +49,11 @@ int main (void)
         }
     }  
 
-        printf("\nEnter your massage: ");   
+        printf("Enter your massage(to quit pass #): "); 
+        scanf("%25s", m);
     }
+    printf("Bye");
+    return 0;
 }
     
     
